@@ -1,0 +1,36 @@
+.all-box {
+    font-family: Tahoma;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 50%;
+  }
+  .A-box,
+  .B-box,
+  .F-box {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .A-box,
+  .B-box {
+    border-width: 1px;
+    border-color: #687291;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
+  .A-box {
+    background-color: #dfe1e7;
+  }
+  .B-box {
+    background-color: #eeeff2;
+  }
+  .F-box {
+    background-color: #687291;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+  }
