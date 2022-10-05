@@ -1,0 +1,59 @@
+.elca-background {
+    width: 100%;
+  }
+  .work-task {
+    list-style-type: black circle;
+    list-style-position: inside;
+  }
+  .bold-line {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .italic-line {
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .normal-line {
+    margin-top: 10px;
+  }
+  .bold-line2 {
+    font-weight: bold;
+  }
+  .bold-line3 {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .quamg-cao {
+    list-style-type: decimal;
+    list-style-position: outside;
+  }
+  .company-infor {
+    margin-top: 20px;
+  }
+  .cot-viec {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .viec-lam {
+    display: flex;
+    flex-direction: row;
+  }
+  .ten-viec {
+    margin-left: 10px;
+  }
+  .normal-line1 {
+    margin-top: 20px;
+
+    margin-left: 8px;
+  }
+  .lenin-line {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  .italic-line1 {
+    font-style: italic;
+    margin-top: 15px;
+    margin-left: 8px;
+  }
