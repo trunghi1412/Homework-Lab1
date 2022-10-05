@@ -4,132 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="hw1.css" />
     <title>Homework 1</title>
-    <style>
-      body {
-        font-family: Arial;
-        margin: 0;
-        height: 3000px;
-      }
-      .profile-page {
-        display: flex;
-        flex-direction: column;
-      }
-      .profile-me {
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        padding-top: 15px;
-        padding-bottom: 40px;
-        background-color: rgb(129, 30, 30);
-      }
-      .pro-name {
-        font-size: 30px;
-        font-weight: 500;
-        color: rgb(96, 197, 163);
-        text-align: center;
-      }
-      .student-info {
-        font-size: 12px;
-        color: rgb(165, 164, 164);
-        padding-top: 15px;
-        padding-left: 10px;
-      }
-      .about-pic-detail {
-        display: flex;
-        flex-direction: row;
-        height: 200px;
-        background-color: bisque;
-      }
-      .about-me {
-        display: block;
-        width: 33%;
-        margin-left: 15px;
-      }
-      .abt-me-name {
-        font-size: 23px;
-        color: rgb(96, 197, 163);
-        padding-top: 20px;
-        padding-bottom: 20px;
-      }
-      .abt-me-detail {
-        font-size: 10px;
-        line-height: 15px;
-      }
-      .profile-avt {
-        width: 28%;
-        margin: 15px;
-        justify-items: center;
-      }
-      .detail-me {
-        font-size: 10px;
-        line-height: 15px;
-      }
-      .my-infor-bold {
-        font-weight: bolder;
-      }
-      .exp-page {
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        background-color: rgb(248, 228, 204);
-      }
-      .exp-name {
-        font-size: 30px;
-        font-weight: 500;
-        color: rgb(96, 197, 163);
-        padding-top: 15px;
-        text-align: center;
-        padding-bottom: 15px;
-      }
-      .edu-infor {
-        margin-left: 15px;
-      }
-      .edu-uni {
-        display: flex;
-        flex-direction: row;
-      }
-      .my-edu-bold {
-        font-size: 12px;
-        font-weight: bold;
-        line-height: 35px;
-      }
-      .my-edu-normal {
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 20px;
-      }
-      .uni-date {
-        display: block;
-        width: 25%;
-      }
-      .infor-sys {
-        display: block;
-        width: 75%;
-      }
-      .abi-page {
-        margin-top: 15px;
-      }
-      .skill-part {
-        padding-left: 20px;
-      }
-      .skill-code {
-        display: flex;
-        flex-direction: row;
-      }
-
-      .code-lang {
-        display: block;
-        flex-direction: column;
-      }
-      .code-check {
-        display: flex;
-        flex-direction: row;
-      }
-      .check-box {
-        margin-left: 40px;
-      }
-    </style>
   </head>
   <body>
     <div class="pro-ex">
@@ -143,7 +19,7 @@
           <div class="about-me">
             <div class="abt-me-name">About me</div>
             <div class="abt-me-detail">
-              I am super wibu. And I have passion in IT , I want to become a
+              I am wibu lord. And I have passion in IT , I want to become a
               famous game developer in the future!
             </div>
           </div>
@@ -199,44 +75,360 @@
         </div>
       </div>
       <div class="abi-page">
-        <div class="pro-name">Abilities</div>
-        <div class="skill-part">
-          <div class="abt-me-name">Skills</div>
-          <div class="skill-code">
-            <div class="code-lang">
-              <div class="code-check">
-                <div class="code-lang-name">HTMLCSS</div>
-                <input type="checkbox" />
-              </div>
-              <div class="code-check">
-                <div class="code-lang-name">SQPL</div>
-                <input class="check-box" type="checkbox" />
-              </div>
-              <div class="code-check">
-                <div class="code-lang-name">JQuery</div>
-                <input class="check-box" type="checkbox" />
-              </div>
-              <div class="code-check">
-                <div class="code-lang-name">Javascript</div>
-                <input class="check-box" type="checkbox" />
-              </div>
-            </div>
+        <div class="exp-name">Abilities</div>
+        <div class="skill-name">Skills</div>
+        <div class="all-skill-languages">
+          <div class="skill-languages">
+            <ol class="check-langugage-table">
+              <li class="check-language">
+                <div class="language-name">HTML/CSS</div>
+                <div class="all-check-box">
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark-no"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                </div>
+              </li>
 
-            <!-- <div class="code-lang">
-              <div class="code-check">
-                <div class="code-lang-name">Object Oriented Programming</div>
-                <input type="checkbox" />
-              </div>
+              <li class="check-language">
+                <div class="language-name">SQL</div>
+                <div class="all-check-box">
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark-no"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                </div>
+              </li>
 
-              <div class="code-lang-name">SEO</div>
-              <input type="checkbox" />
-              <div class="code-lang-name">React</div>
-              <input type="checkbox" />
-            </div> -->
+              <li class="check-language">
+                <div class="language-name">JQUERY</div>
+                <div class="all-check-box">
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark-no"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                </div>
+              </li>
+
+              <li class="check-language">
+                <div class="language-name">Javascript</div>
+                <div class="all-check-box">
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark-no"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                </div>
+              </li>
+            </ol>
+          </div>
+          <div class="skill-languages">
+            <ol class="check-langugage-table">
+              <li class="check-language">
+                <div class="language-name">Object Oriented Program</div>
+                <div class="all-check-box">
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark-no"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                </div>
+              </li>
+
+              <li class="check-language">
+                <div class="language-name">SEO</div>
+                <div class="all-check-box">
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark-no"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                </div>
+              </li>
+
+              <li class="check-language">
+                <div class="language-name">React</div>
+                <div class="all-check-box">
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark-no"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container-no">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="container">
+                    <input type="check-box" checked="checked" />
+                    <span class="check-mark"></span>
+                  </label>
+                </div>
+              </li>
+            </ol>
           </div>
         </div>
-        <div class="git-hub"></div>
-        <div class="lang-part"></div>
+
+        <div class="github-line">See my profile on github.</div>
+        <button class="github-button">See project on Github</button>
+      </div>
+
+      <div class="skill-name">Languages</div>
+      <div class="all-skill-languages">
+        <div class="skill-languages">
+          <ol class="check-langugage-table">
+            <li class="check-language">
+              <div class="language-name">Vietnamese</div>
+              <div class="all-check-box">
+                <label class="container-no">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark-no"></span>
+                </label>
+                <label class="container-no">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+                <label class="container-no">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+                <label class="container-no">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+                <label class="container-no">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+                <label class="container-no">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+              </div>
+            </li>
+
+            <li class="check-language">
+              <div class="language-name">English</div>
+              <div class="all-check-box">
+                <label class="container-no">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark-no"></span>
+                </label>
+                <label class="container-no">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+                <label class="container-no">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+                <label class="container-no">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+                <label class="container">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+                <label class="container">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <div class="skill-languages">
+          <ol class="check-langugage-table">
+            <li class="check-language">
+              <div class="language-name">Japanese</div>
+              <div class="all-check-box">
+                <label class="container-no">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark-no"></span>
+                </label>
+                <label class="container-no">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+                <label class="container-no">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+                <label class="container-no">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+                <label class="container-no">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+                <label class="container">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+              </div>
+            </li>
+
+            <li class="check-language">
+              <div class="language-name">Spanish</div>
+              <div class="all-check-box">
+                <label class="container-no">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark-no"></span>
+                </label>
+                <label class="container-no">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+                <label class="container">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+                <label class="container">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+                <label class="container">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+                <label class="container">
+                  <input type="check-box" checked="checked" />
+                  <span class="check-mark"></span>
+                </label>
+              </div>
+            </li>
+          </ol>
+        </div>
       </div>
     </div>
   </body>
